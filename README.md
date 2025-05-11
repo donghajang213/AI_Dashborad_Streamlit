@@ -11,3 +11,14 @@ pip install streamlit pandas matplotlib
 
 ## requirements.txt 설치
 pip freeze > requirements.txt
+
+## https://streamlit.io/cloud 접속
+new app 생성 및 deploy
+
+## dev 브랜치 만들기
+
+### main 브랜치 최신 상태에서 dev 브랜치 생성
+git checkout -b dev
+
+### GitHub 원격에 push
+git push origin dev
