@@ -17,3 +17,8 @@ st.line_chart(df.set_index("날짜"))
 # 표 보기
 if st.checkbox("데이터 보기"):
     st.write(df)
+
+# 요약 통계 기능 추가
+st.subheader("📌 예측 값 요약 통계")
+summary = df["예측 값"].describe()
+st.write(summary)
